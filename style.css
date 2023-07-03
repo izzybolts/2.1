@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-header {
+    background-image: url('https://images.pexels.com/photos/1637438/pexels-photo-1637438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    height: 500px;
+    padding: 1.2rem;
+}
+
+.main-nav {
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.assets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 0.9rem;
+    text-align: center;
+  
+}
+
+.porudctPageOne {
+    background-color: #f0efed;
+    height: 500px;
+
+}
+
+.nav-link{
+    margin: 0px 2rem;
+   
+}
+
+.title {
+    margin-left: 1rem;
+}
+
+.title-h4 {
+    font-weight: 700;
+    
+}
+
+.header-title {
+    color: #f0efed;
+    text-align: center;
+    margin-top: 10rem;
+    font-weight: 900;
+    text-shadow: 10px;
+    background-color: rgba(0, 0, 0, 0.137);
+    font-size: 1.5rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 1.2rem;
+    background-color: white;
+    padding: 2.5rem;
+    
+}
+
+.grid-container > * {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+img {
+    height: 30;
+    width: 30rem;
+}
+
+.h4-product {
+    text-align: left;
+}
+
